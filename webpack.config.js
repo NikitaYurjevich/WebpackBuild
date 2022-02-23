@@ -113,12 +113,6 @@ module.exports = {
     ],
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     devtool: 'source-map',
-    // watch: true,
-    // watchOptions: {
-    //     aggregateTimeout: 200,
-    //     poll: 1000,
-    //     ignored: /node_modules/,
-    // },
 };
 
 if (process.env.SHOW_STAT === 'true') {
